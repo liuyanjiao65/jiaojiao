@@ -1,0 +1,1259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+em{
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: none;
+}
+label, select, button, input[type=text], input[type=reset], input[type=submit], input[type=radio], input[type=checkbox], input[type=file] {
+    cursor: pointer;
+}
+
+input.search_t{
+    color: rgb(153, 153, 153);
+    outline: none;
+    font-weight: normal;
+    font-family: Helvetica;
+    font-size: 16px;
+}
+
+th, td {
+    padding: 0;
+}
+dl, dt, dd {
+    margin: 0;
+}
+.clearfix:before,.clearfix:after{
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+    color: #333;
+}
+.header{
+    position: relative;
+}
+.header .navigation{
+    width: 100%;
+    height: 86px;
+}
+/*--导航上部分->黑色--*/
+.navigation .navTop{
+    width: 100%;
+    height: 30px;
+    background: #333333;
+}
+.navigation .navTop .navBlack{
+    position: relative;
+    width: 1343px;
+    height: 100%;
+}
+.navigation .navTop .navBlack .navLeft .navPng i {
+    width: 10px;
+    height: 15px;
+    position: absolute;
+    top:7px;
+    left: 28px;
+    background: url("../images/xuebi/img.png") no-repeat;
+}
+.navBlack .navLeft .navPng span,.navBlack .navLeft .navText{
+    color: #08d7a2;
+    margin-left: 18px;
+    padding: 0 8px 0 27px;
+    line-height: 30px;
+}
+.navBlack .navLeft .navPng span:hover{
+    color: #05eaaf;
+}
+.navBlack .navLeft .navText{
+    margin: 0;
+    padding-left: 12px;
+    color: #c4c3c3;
+    border-left: 1px solid #5d5d5d;
+}
+.navBlack .navRight{
+    position: absolute;
+    right: 29px;
+    top: -7px;
+}
+.navBlack .navRight li{
+    float:left;
+}
+.navBlack .navRight li a span{
+    display: inline-block;
+    color: #c4c3c3;
+    padding: 0 12px;
+    margin: 7px 0 0;
+    line-height: 30px;
+}
+.navBlack .navLeft .navText:hover,.navRight li a span:hover{
+    color: #fff;
+}
+.navBlack .navRight li .navBor{
+    border-left:1px solid #5d5d5d;
+}
+/*--导航下部分->白色--*/
+.navigation .navBottom{
+    position: relative;
+    width: 100%;
+    height: 54px;
+    border-top: 1px solid #d2d2d2;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #fafafa;
+}
+.navigation .navBottom .navWhite{
+    width: 1343px;
+    height: 100%;
+}
+.navBottom .navWhite a h1{
+    position: absolute;
+    left: 160px;
+    background-image: url("../images/xuebi/logo.png");
+    width: 97px;
+    height: 34px;
+    margin: 10px 0 0;
+    padding: 0;
+    overflow: hidden;
+    text-indent: -99em;
+}
+.navBottom .navWhite .navL{
+    position: absolute;
+    left: 259px;
+    height: 44px;
+    padding: 10px 0 0 10px;
+    font-size: 18px;
+    line-height: 44px;
+}
+.navBottom .navWhite .navL em{
+    padding-left: 8px;
+    color: #999;
+    font-size: 12px;
+    cursor: pointer;
+}
+.navBottom .navWhite .navR{
+    position: absolute;
+    left: 418px;
+    width: 328px;
+}
+.navBottom .navWhite .navR li{
+    float: left;
+    margin: 0 18px 0;
+}
+.navBottom .navWhite .navR li .one{
+    color: #333;
+    border-bottom: 2px solid #00b38a;
+}
+.navBottom .navWhite .navR li a{
+    display: block;
+    font-size: 18px;
+    color: #999;
+    line-height: 53px;
+    padding: 0 5px;
+}
+.navBottom .navWhite .navR li a:hover{
+    color: #333;
+    border-bottom: 2px solid #00b38a;
+}
+
+/*--主页部分  左边--*/
+.header .content{
+    margin: 35px 0 0 160px;
+    width: 1024px;
+    height: 2733px;
+    position: relative;
+}
+.header .content .banner .bannerL{
+    width: 230px;
+    height: 100%;
+    background: #fafafa;
+    position: relative;
+}
+.header .content .banner .bannerL h2{
+    position: relative;
+    font-size: 18px;
+    padding:0 0 0 8px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.header .content .banner .bannerL h2 span{
+    position: absolute;
+    right: 2px;
+    top:2px;
+    width: 7px;
+    height: 13px;
+    background: url(../images/xuebi/aaaa.png) no-repeat;
+}
+.content .banner .bannerL .bannerCon{
+    padding: 6px 12px;
+    border: 2px solid #fafafa;
+    overflow: hidden;
+    position: relative;
+}
+.content .banner .bannerL .bannerCon a{
+    float: left;
+    white-space: nowrap;
+    margin: 0 5px 5px 0;
+    padding: 0 8px;
+    color: #555;
+}
+.content .banner .bannerL .box{
+    display:none;
+    width: 540px;
+    padding: 15px 30px 5px;
+    position: absolute;
+    top: 0;
+    left: 228px;
+    z-index: 101;
+    border: 2px solid #c9cbce;
+    background: #fff;
+}
+.content .banner .bannerL:hover .box{
+    display:block;
+}
+
+.content .banner .bannerL .box .boxOne{
+    margin: 0 0 20px;
+    display: block;
+}
+.content .banner .bannerL .box .boxOne dt{
+    display: block;
+    width: 70px;
+    font-size: 14px;
+    margin: 0;
+    text-align: right;
+    position: absolute;
+}
+.content .banner .bannerL .box .boxOne dt a{
+    padding: 0;
+    color: #333;
+    line-height: 28px;
+    text-decoration: underline;
+}
+.content .banner .bannerL .box .boxOne dd{
+    margin-left: 100px;
+    overflow: hidden;
+    display: block;
+}
+.content .banner .bannerL .box .boxOne dd a,.boxT .boxOne dd a{
+    white-space: nowrap;
+    padding: 0 10px;
+    background: url(../images/xuebi/aaaa.png) -29px center no-repeat;
+    color: #777;
+    line-height: 28px;
+    margin-left: -1px;
+}
+.content .banner .bannerL:hover .bannerCon{
+    display: block;
+    border: 2px solid #c9cbce;
+    background: #fff;
+    border-right: 0;
+    z-index: 120;
+}
+.content .banner .bannerL .bannerCon h2 .new{
+    position: absolute;
+    left: 48px;
+    top:3px;
+    width: 37px;
+    height: 17px;
+    background: url("../images/new1.png") no-repeat;
+}
+.content .banner .bannerL:hover span{
+    background-image: url("../images/xuebi/jiantou.png");
+    position: absolute;
+    right: 10px;
+}
+.content .banner .bannerL .box .boxOne a.curr,.boxT .boxOne a.curr{
+    color: #00b38a;
+}
+.content .banner .bannerL .box .boxOne a:hover,.banner .bannerL .bannerCon a:hover{
+    color: #00b38a;
+    text-decoration: underline;
+}
+.content .banner .bannerL .boxT{
+    /*display: none;*/
+    width: 540px;
+    padding: 15px 30px 5px;
+    position: absolute;
+    top: 0;
+    left: 230px;
+    z-index: 101;
+    border: 2px solid #c9cbce;
+    background: #fff;
+}
+.header .content .banner .bot{
+    display: block;
+    font-size: 18px;
+    height: 46px;
+    line-height: 46px;
+    background: #fafafa;
+    margin-top: 12px;
+    border-bottom: 2px solid #00b38a;
+}
+.header .content .banner .bot a{
+    display: block;
+    float: left;
+    margin: 0 0 -32px 39px;
+    width:230px;
+    color: #555;
+}
+.header .content .banner .bot a:hover{
+    color: #00b38a;
+}
+.header .content .banner .bot span{
+    display: block;
+    width: 21px;
+    height: 21px;
+    background: url("../images/xuebi/yuanjiatou.png")no-repeat 0 -19px;
+    position: absolute;
+    right: 20px;
+    bottom: 11px;
+}
+/*主页部分  右*/
+.content .bannerRight{
+    position: absolute;
+    left: 280px;
+    top:0;
+    width: 740px;
+}
+.content .bannerRight .search .search_t{
+    width: 570px;
+    height: 23px;
+    line-height: 23px;
+    float: left;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 8px 5px 10px;
+    margin: 0;
+    border: 2px solid #00b38a;
+    border-right: 0;
+    color: rgb(153, 153, 153);
+}
+.content .bannerRight .search .search_b{
+    height: 37px;
+    width: 150px;
+    color: #FFF;
+    font-size: 18px;
+    border: 2px solid #00b38a;
+    background: #00b38a;
+    float: right;
+    cursor: pointer;
+}
+.content .bannerRight .search .search_b:hover{
+    background-color: #00a57f;
+    color: #fff;
+}
+
+
+
+
+
+
+
+.search ul {
+    display: none;
+    border: 1px solid #CCC;
+    border-top: none;
+}
+
+.search ul li {
+    padding: 0 5px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.search ul li:hover {
+    background: #EEE;
+}
+
+
+
+
+
+
+
+
+
+
+.content .searchBottom{
+    margin-top: 12px;
+}
+.content .searchBottom dt,.content .searchBottom dd{
+    float: left;
+}
+.content .searchBottom dd a{
+    color: #00b38a;
+    margin-right: 20px;
+}
+.content .searchBottom dd a:hover{
+    text-decoration: underline;
+}
+/*--轮播图--*/
+.content .bannerRight .bannerHome {
+    position: relative;
+    margin-top: 12px;
+    width: 744px;
+}
+.content .bannerRight .bannerHome .bannerHomeL{
+    width: 612px;
+    height: 160px;
+    overflow: hidden;
+}
+.content .bannerRight .bannerHome .bannerHomeR{
+    position: absolute;
+    right: 4px;
+    top:0;
+}
+.bannerRight .bannerHome .bannerHomeR ul em{
+    display: none;
+    width: 127px;
+    height: 50px;
+    background: url("../images/xuebi/shubiaojingguo.png") no-repeat 0 0;
+    position: absolute;
+    z-index: 25;
+    top: 0;
+    left: -6px;
+}
+.bannerRight .bannerHome .bannerHomeR ul li.home{
+    margin: 5px 0;
+}
+.bannerRight .bannerHome .bannerHomeR ul li i{
+    display: block;
+    position: absolute;
+    z-index: 30;
+    width: 113px;
+    height: 42px;
+    background: #000000;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+.bannerRight .bannerHome .bannerHomeR ul li:hover i{
+    display: none;
+}
+.bannerRight .bannerHome .bannerHomeR ul li{
+    display: block;
+    width: 113px;
+    height: 42px;
+    border: 4px solid #d3d3d3;
+}
+.content .bannerRight .outer{
+    width: 744px;
+    margin-top: 18px;
+    position: absolute;
+}
+.content .bannerRight .outer li{
+    float: left;
+    width: 113px;
+    height: 113px;
+    margin-right: 8px;
+    background: #fff;
+    position: relative;
+    border: 2px solid #fafafa;
+    overflow: hidden;
+}
+.content .bannerRight .outer .index{
+    margin:0;
+}
+.content .bannerRight .outer li img{
+    width: 100%;
+    height: 100%;
+    border: none;
+    vertical-align: top;
+}
+#outer li span{
+    position: absolute;
+    display: block;
+    background: #333;
+    background: rgba(0,179,138,.9);
+    background: #00b38a;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    left: -113px;
+    top : 0;
+}
+#outer li span h2{
+    font-size: 24px;
+    height: 24px;
+    line-height: 24px;
+    margin: 10px 8px 8px;
+    font-weight: 400;
+    text-align: center;
+    overflow: hidden;
+}
+#outer li span em{
+    display: block;
+    width: 100px;
+    height: 5px;
+    background: rgba(255,255,255,.3);
+    background: #fff\0;
+    filter: alpha(opacity=30);
+    margin: 0 6px;
+}
+#outer li span p{
+    font-size: 12px;
+    margin: 6px 8px;
+    line-height: 18px;
+}
+
+.content .bannerRight .option,.card .show ul .list .showBot{
+    margin-top: 161px;
+    height: 39px;
+    background: #f6f6f6;
+}
+.content .bannerRight .option li{
+    cursor: pointer;
+    display: inline-block;
+    padding: 7px 20px;
+    font-size: 18px;
+    color: #999;
+}
+.content .bannerRight .option li.optionHot{
+    border-top: 3px solid #00b38a;
+    background: #fff;
+    color: #333;
+}
+.content .bannerRight .card .show ul .list{
+    width: 744px;
+    height: 124px;
+    overflow: hidden;
+    border-bottom: 1px dashed #e1e1e1;
+}
+.content .bannerRight .card .show ul .list .showTop{
+    height: 62px;
+    width: 729px;
+    padding: 22px 0 0 15px;
+}
+.content .bannerRight .card .show ul .list .showTop .topL{
+    width: 400px;
+    height: 62px;
+    margin-right: 20px;
+}
+.bannerRight .card .show ul .list{
+    position: relative;
+}
+.bannerRight .card .show ul .list .showTop .topL .name{
+    width: 400px;
+    height: 34px;
+}
+.card .show{
+    position: relative;
+}
+.card .show ul .list .showTop .topL{
+    position: absolute;
+    left: 0;
+    bottom: 48px;
+}
+.card .show ul .list .showTop .topL .name h2{
+    float: left;
+}
+.card .show ul .list .showTop .topL .name h2 a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #00b38a;
+}
+.card .show ul .list .showTop .topL .name h2 .wordCut{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.card .show ul .list .showTop .topR{
+    width: 309px;
+    height: 62px;
+}
+.card .show ul .list .showTop .topL .name .f2{
+    color: #999;
+    font-size: 14px;
+    margin-left: 10px;
+    line-height: 34px;
+}
+.card .show ul .list .showTop .topL .topB .data{
+    height: 28px;
+    line-height: 28px;
+}
+.card .show ul .list .showTop .topL .topB .data .red{
+    font-size: 16px;
+    color: #fa6041;
+    margin-right: 20px;
+}
+.card .show ul .list .showTop .topR{
+    position: absolute;
+    right: 0;
+    bottom: 45px;
+}
+.card .show ul .list .showTop .topR .Int{
+    height: 34px;
+    line-height: 34px;
+}
+.card .show ul .list .showTop .topR .Ont{
+    width: 294px;
+    height: 28px;
+    line-height: 28px;
+    position: absolute;
+
+    left: 0;
+}
+.card .show ul .list .showTop .topR .Int a{
+    color: #00b38a;
+    font-size: 16px;
+}
+.card .show ul .list .showBot{
+    position: relative;
+    margin: 0;
+}
+.show ul .list .showBot .botL{
+    width: 400px;
+    height: 39px;
+    padding: 0 20px 0 15px;
+    line-height: 39px;
+}
+.show ul .list .showBot .botR{
+    position: absolute;
+    right: 5px;
+    top: 0;
+    width: 309px;
+    height: 24px;
+    padding-top: 8px;
+    overflow: hidden;
+}
+.show ul .list .showBot .botR span{
+    display: inline-block;
+    height: 22px;
+    margin-right: 10px;
+    padding: 0 3px;
+    line-height: 22px;
+    border: 1px solid #dcdcdc;
+}
+.card .hidden{
+    display: none;
+}
+.card .show .see{
+    position: absolute;
+    right: 0;
+    font-size: 16px;
+    color: #fff;
+    background: #00b38a url(../images/xuebi/youjiantou.png) 88px center no-repeat;
+    padding: 5px 40px 5px 15px;
+    margin-top: 25px;
+}
+.card .show .see:hover{
+    background-color: #00a57f;
+    color: #fff;
+}
+.bannerRight .linkBox{
+    position: relative;
+    padding: 15px 60px 0 0;
+    margin-top: 96px;
+    border-top: 1px solid #ececed;
+    overflow: hidden;
+}
+.bannerRight .linkBox dl{
+    width: 684px;
+    height: 217px;
+}
+.bannerRight .linkBox dt {
+    float: left;
+    width: 70px;
+    margin-top: 2px;
+    font-size: 15px;
+}
+.bannerRight .linkBox dl dd{
+    width: 614px;
+    height: 217px;
+    margin-left: 70px;
+}
+.bannerRight .linkBox a,.bannerRight .linkBox span{
+    white-space: nowrap;
+    float: left;
+    height: 15px;
+    padding: 8px 4px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #555;
+    text-decoration: none;
+}
+.bannerRight .linkBox a:hover{
+    color: #00b38a;
+    text-decoration: underline;
+}
+.linkBox a.more {
+    text-decoration: underline;
+}
+.linkBox .butt_a,.linkBox .butt_b {
+    position: absolute;
+    right: 24px;
+    top: 15px;
+}
+.linkBox .butt_b{
+    display: none;
+}
+.linkBox .butt_a i,.linkBox .butt_b i{
+    position: absolute;
+    right: -10px;
+    top: 12px;
+    width: 10px;
+    height: 6px;
+    background: url("../images/xuebi/up.png") no-repeat;
+}
+.linkBox .butt_b i{
+    background: url("../images/xuebi/down.png") no-repeat;
+}
+#scroll {
+    display: block;
+    background: url("../images/xuebi/scroll.png") left top no-repeat ;
+    width: 28px;
+    height: 64px;
+    position: fixed;
+    left: 50%;
+    bottom: 140px;
+    margin-left: 548px;
+    cursor: pointer;
+}
+#scroll:hover{
+    background: url("../images/xuebi/scroll.png") right top no-repeat ;
+}
+.feedBack{
+    width: 50px;
+    height: 50px;
+
+    position: fixed;
+    right: 84px;
+    bottom: 80px;
+}
+.feedBack .icon{
+    margin: 0 auto;
+    display: block;
+    width: 28px;
+    height: 28px;
+    background: url("../images/xuebi/fankui.png") left top no-repeat;
+}
+.feedBack .icon:hover{
+    background: url("../images/xuebi/fankui.png") left -31px no-repeat;
+}
+.feedBack span{
+    font-size: 12px;
+    color: #555;
+}
+.footer{
+    min-width: 1343px;
+    background-color: #fff;
+    clear: both;
+    height: 67px;
+    border-top: 1px solid #ebebeb;
+    position: absolute;
+    bottom:-80px;
+    right: -159px;
+}
+.footer .wrapper .wrapper_icon{
+    position: absolute;
+    left: 0;
+    top: 9px;
+    z-index: 1;
+    display: block;
+    margin-left: 160px;
+    margin-right:50px;
+    width: 198px;
+    height: 19px;
+    background: url(../images/xuebi/footer.png) 0 0 no-repeat;
+}
+.footer .wrapper_inner{
+    padding-top: 12px;
+    position: absolute;
+    right: 192px;
+    height: 14px;
+    line-height: 14px;
+    white-space: nowrap;
+}
+.wrapper_inner .padding{
+    margin-right: 45px;
+}
+.footer .wrapper_inner img,.wrapper_inner .weixin img{
+    display: none;
+    border: 3px solid #0D9572;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    z-index: 80;
+    vertical-align: top;
+    width: 256px;
+    height: 256px;
+}
+.wrapper_inner .weixin img{
+    left: 170px;
+    z-index:90;
+}
+
+.footer .wrapper_inner .padding:hover img,.wrapper_inner .weixin:hover img{
+    display: block;
+}
+.wrapper_inner a{
+    float: left;
+    color: #555;
+    font-size: 14px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+.wrapper_inner a span{
+    width: 30px;
+    height: 16px;
+    display: block;
+    background: url("../images/new2.png")no-repeat;
+    position: absolute;
+    top: 10px;
+    left: 58px;
+}
+
+.auto{
+    position: absolute;
+    left: 33%;
+    top: 50%;
+    width: 450px;
+}
+
+.footer .wrapper_img{
+    vertical-align: top;
+    border: none;
+    display: inline-block;
+}
+
+.wrapper_img span,.wrapper .color,.wrapper span{
+    padding-right: 0;
+    font-size: 12px;
+    color: #d5d5d5;
+}
+.auto .jing{
+    position: absolute;
+    top: -4px;
+    left: 62px;
+}
+.auto .jing em{
+    font-size: 13px;
+}
+/*反馈弹框*/
+#frame{
+    display: none;
+    width: 382px;
+    height: 263px;
+    border: 1px solid #e7e7e7;
+    border-radius: 3px;
+    box-shadow: 2px 4px 7px #ecebeb;
+    position: fixed;
+    bottom: 80px;
+    left: 50%;
+    margin-left: 206px;
+    background: #fefef2;
+    z-index: 100;
+}
+#frame .ph{
+    position: absolute;
+    left: 26px;
+    top: -33px;
+    width: 66px;
+    height: 66px;
+    background: url("../images/xuebi/fankui.png")left bottom no-repeat;
+}
+#frame .x{
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    background: url("../images/xuebi/xx.png")no-repeat;
+    cursor: pointer;
+}
+#frame .text{
+    vertical-align: top;
+    height: 88px;
+    min-height: 88px;
+    width: 332px;
+    padding: 5px 11px;
+    border: 1px solid #f1f3e9;
+    border-bottom: 0;
+    font: 14px/22px Arial,"Hiragino Sans GB","Microsoft YaHei",SimSun;
+    overflow: hidden;
+    resize: none;
+    margin: 44px 12px 0 13px;
+}
+#frame .fa{
+    width: 344px;
+    padding: 0 10px 10px 0;
+    border: 1px solid #f1f3e9;
+    border-top: 0;
+    margin-left: 13px;
+    border-radius: 0 0 3px 3px;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: right;
+    color: #cdcdcd;
+    background: #fff;
+}
+#frame .fc{
+    width: 356px;
+    height: 39px;
+    margin: 5px 13px 0;
+}
+/*#frame .fa:focus,#frame .fc:focus {
+    border: 1px solid #32dbb3;
+    border-bottom: 0;
+    transition: border 0s ease-in 0s;
+}*/
+.fc input[type=text] {
+    float: left;
+    width: 260px;
+    height: 37px;
+    margin: 0;
+    padding: 0 11px;
+    border: 1px solid #f1f3e9;
+    border-radius: 3px;
+    font: 14px/32px Arial,"Hiragino Sans GB","Microsoft YaHei",SimSun;
+}
+.fc input[type=button] {
+    width: 65px;
+    height: 37px;
+    text-align: center;
+    line-height: 37px;
+    float: right;
+    border-radius: 3px;
+    background-color: #b8b8b8;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0;
+    border: 1px solid #ededed;
+}
+#frame .go{
+    width: 356px;
+    height: 26px;
+    margin: 12px 13px 14px;
+}
+.go a{
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 26px;
+    text-decoration: underline;
+    font-size: 14px;
+    color: #333;
+    background: url("../images/xuebi/qq.png") no-repeat;
+}
+.go a:hover{
+    color: #00b38a;
+}
+.toolBar{
+    display: none;
+    width: 100%;
+    height: 64px;
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    left: 0;
+    background: url("../images/xuebi/shuxian.png") repeat-x;
+}
+.toolBar .login em{
+    width: 95px;
+    height: 54px;
+    background: url("../images/lou.png") no-repeat;
+    position: absolute;
+    top: -54px;
+    left: -110px;
+}
+.toolBar .login{
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+.toolBar .login img{
+    border: 0;
+    vertical-align: top;
+    display: inline-block;
+    width: 138px;
+    height: 45px;
+    position: absolute;
+    left: -110px;
+    top: 10px;
+}
+.login .companycount{
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 100;
+    color: #dafaf4;
+    display: inline-block;
+    height: 30px;
+    background: url("../images/xuebi/gongsizhiwei.png") right 16px no-repeat;
+    padding-right: 33px;
+    margin: 20px 0 0 294px;
+}
+.login span i{
+    float: left;
+    display: inline-block;
+    width: 20px;
+    height: 30px;
+    background: url("../images/xuebi/number.png") 0 0 no-repeat;
+}
+.login span b{
+    float: left;
+    display: inline-block;
+    width: 9px;
+    height: 30px;
+    background: url("../images/xuebi/douhao.png") center bottom no-repeat;
+}
+
+
+.login .positioncount {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 100;
+    color: #dafaf4;
+    display: inline-block;
+    height: 30px;
+    background: url("../images/xuebi/gongsizhiwei.png") right bottom no-repeat;
+    padding-right: 33px;
+    margin: 20px 0 0 60px;
+}
+.login .pop{
+    height: 64px;
+    position: absolute;
+    left: 790px;
+    background: url("../images/xuebi/shuxian2.png") repeat-x;
+    padding: 0 46px;
+}
+.login .pop i{
+    display: block;
+    width: 50px;
+    height: 64px;
+    background: url("../images/xuebi/denglu.png") left center no-repeat;
+}
+.login .right {
+    width: 100%;
+    height: 64px;
+    position: absolute;
+    left: 932px;
+    top: 0;
+    background: url("../images/xuebi/red.png") repeat-x;
+}
+.login .right .reg i{
+    display: block;
+    width: 120px;
+    height: 64px;
+    background: url("../images/xuebi/zhuce.png") left center no-repeat;
+}
+.login .right a.reg{
+    display: inline-block;
+    height: 64px;
+    padding: 0 46px;
+}
+.login .right a.reg:hover{
+    background: url("../images/xuebi/hover_red.png") repeat-x;
+}
+
+
+
+
+
+
+
+
+
+
+.backtop {
+    display: none;
+    background: url(img/toTop.png) left top no-repeat;
+    width: 28px;
+    height: 64px;
+    position: fixed;
+    left: 50%;
+    margin-left: 548px;
+    cursor: pointer;
+    bottom: 208px;
+}
+.backtop_1{
+    /*display: none;*/
+    background: url(img/toTop.png)right top no-repeat;
+    width: 28px;
+    height: 64px;
+    position: fixed;
+    left: 50%;
+    margin-left: 548px;
+    cursor: pointer;
+    bottom: 208px;
+}
+.backtop:hover{
+    background: url(img/toTop.png)right top no-repeat;
+
+}
+#product {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    left: 50%;
+    bottom: 148px;
+    margin-left: 538px;
+    cursor: pointer;
+    z-index: 21;
+}
+/*#product .fb-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    background: url(img/feedback.png) 0 0 no-repeat;
+
+}*/
+#product span {
+    font-size: 12px;
+    color: #555;
+}
+#product .fb-icon:hover {
+    background-position: 0 -31px;
+}
+body{
+    position: relative;
+}
+.popup{
+    display: none;
+    top:0;
+    width: 100%;
+    height: 103%;
+    background: rgba(0,0,0,.5);
+    position: absolute;
+    z-index: 10005;
+}
+.eject{
+    width: 502px;
+    height: 480px;
+    margin: 90px auto;
+    background: #fff;
+    position: relative;
+    z-index: 102;
+}
+.back{
+    width: 534px;
+    height: 510px;
+    background: #3a3a3a;
+    opacity: 0.5;
+    filter: alpha(opacity:50);
+    position: absolute;
+    top: 75px;
+    left: 50%;
+    margin-left: -265px;
+    z-index: 100;
+}
+.eject h2{
+    padding: 14px 18px;
+    font-size: 17px;
+    color: #fff;
+    background: #02B38B;
+    font-weight: 500;
+    line-height: 17px;
+    height: 17px ;
+}
+.eject h2 i{
+    width: 17px;
+    height: 17px;
+    display: block;
+    font-style:normal;
+    float: right;
+    background: url("../images/xuebi/xxxxxxxxxxxxxxxxxx.png")center center  no-repeat;
+    cursor: pointer;
+}
+.eject p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: 400;
+}
+.eject .sp{
+    font-size: 16px;
+    color: #555;
+    line-height: 42px;
+    display: block;
+    padding-bottom: 25px;
+    border-bottom: 1px dotted #e5e5e5;
+}
+.eject dl {
+    line-height: 48px;
+    margin: 26px 0 14px;
+}
+.eject dl a{
+    display: inline-block;
+    border: 2px solid #00b38a;
+    color: #555;
+    width: 98px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    margin: 0 12px;
+}
+.eject li a{
+    font-size: 16px;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    color: #999;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid #dce4e6;
+    border-radius: 1px;
+    margin: 11px 12px;
+}
+.eject li {
+    float: left;
+}
+.eject ul {
+    padding-left: 24px
+}
+.eject dl a,.eject li a{
+    *display: inline;
+    *zoom:1;
+}
+.eject .p1{
+    color: #777;
+    font-size: 14px;
+    margin: 14px 0 0;
+}
+.eject a:hover{
+    border: 2px solid #00b38a;
+    color: #555;
+    width: 98px;
+    height: 48px;
+    line-height: 48px;
+}
+/*input{
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 13.3333px Arial;
+}*/
+
+
+
+
+
+
+
+
+
